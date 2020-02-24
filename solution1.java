@@ -1,11 +1,11 @@
 import java.io.*;
 import java.util.*;
 
-class solution1 {
+class Solution {
     public static void main(String[] args) {
         
   
-        Scanner sc=new Scanner(System.in);
+        Scanner sc new Scanner(System.in);
         int n = sc.nextInt();
         
         int arr[]=new int [n];
@@ -22,8 +22,8 @@ class solution1 {
             {
                 if(arr[i]+arr[j]==tar)
                 {
-                    res[0]=i;
-                    res[1]=j;
+                    res[0]=arr[i];
+                    res[1]=arr[j];
                 }
             }
         }
